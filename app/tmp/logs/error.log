@@ -1,0 +1,936 @@
+2015-04-27 23:57:38 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/Config/bootstrap.php(116): CakePlugin::load('DebugKit')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/Configure.php(92): include('/var/www/test.d...')
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(100): include('/var/www/test.d...')
+#4 {main}
+2015-04-27 23:58:07 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/Config/bootstrap.php(116): CakePlugin::load('DebugKit')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/Configure.php(92): include('/var/www/test.d...')
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(100): include('/var/www/test.d...')
+#4 {main}
+2015-04-27 23:58:12 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/Config/bootstrap.php(116): CakePlugin::load('DebugKit')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/Configure.php(92): include('/var/www/test.d...')
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(100): include('/var/www/test.d...')
+#4 {main}
+2015-04-27 23:58:55 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/App.php(227): CakePlugin::path('DebugKit')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-28 00:00:28 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/Config/bootstrap.php(117): CakePlugin::load('BoostCake')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/Configure.php(92): include('/var/www/test.d...')
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(100): include('/var/www/test.d...')
+#4 {main}
+2015-04-28 00:00:28 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/Config/bootstrap.php(117): CakePlugin::load('BoostCake')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/Configure.php(92): include('/var/www/test.d...')
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(100): include('/var/www/test.d...')
+#4 {main}
+2015-04-28 00:00:28 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/Config/bootstrap.php(117): CakePlugin::load('BoostCake')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/Configure.php(92): include('/var/www/test.d...')
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(100): include('/var/www/test.d...')
+#4 {main}
+2015-04-28 00:00:28 Error: [MissingPluginException] Plugin BoostCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BoostCake',
+)
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/Config/bootstrap.php(117): CakePlugin::load('BoostCake')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Core/Configure.php(92): include('/var/www/test.d...')
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(100): include('/var/www/test.d...')
+#4 {main}
+2015-04-28 00:20:51 Error: [MissingControllerException] Controller class StatesController could not be found.
+Exception Attributes: array (
+  'class' => 'StatesController',
+  'plugin' => NULL,
+)
+Request URL: /states
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:20:56 Error: [MissingControllerException] Controller class CitiesController could not be found.
+Exception Attributes: array (
+  'class' => 'CitiesController',
+  'plugin' => NULL,
+)
+Request URL: /cities
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:21:13 Error: [MissingControllerException] Controller class CitiesController could not be found.
+Exception Attributes: array (
+  'class' => 'CitiesController',
+  'plugin' => NULL,
+)
+Request URL: /cities/add
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:41:32 Error: [MissingControllerException] Controller class CitiesController could not be found.
+Exception Attributes: array (
+  'class' => 'CitiesController',
+  'plugin' => NULL,
+)
+Request URL: /cities
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:41:51 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:48:05 Error: [MissingControllerException] Controller class PropertiestypesController could not be found.
+Exception Attributes: array (
+  'class' => 'PropertiestypesController',
+  'plugin' => NULL,
+)
+Request URL: /propertiestypes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:48:08 Error: [MissingControllerException] Controller class PropertiesController could not be found.
+Exception Attributes: array (
+  'class' => 'PropertiesController',
+  'plugin' => NULL,
+)
+Request URL: /properties
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:51:31 Error: [MissingControllerException] Controller class RentalOwnersController could not be found.
+Exception Attributes: array (
+  'class' => 'RentalOwnersController',
+  'plugin' => NULL,
+)
+Request URL: /rental_owners
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 00:53:27 Error: [MissingControllerException] Controller class ResidenceAndRentalHistoriesController could not be found.
+Exception Attributes: array (
+  'class' => 'ResidenceAndRentalHistoriesController',
+  'plugin' => NULL,
+)
+Request URL: /residence_and_rental_histories
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:56 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /homes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/test.dev/buildmaxcake2/app/View/Layouts/home.ctp(53): View->__get('Flash')
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(961): include('/var/www/test.d...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(923): View->_evaluate('/var/www/test.d...', Array)
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(546): View->_render('/var/www/test.d...')
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(481): View->renderLayout('', 'home')
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#10 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-28 01:05:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/ionicons.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:05:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:01 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /homes/index
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/test.dev/buildmaxcake2/app/View/Layouts/home.ctp(53): View->__get('Flash')
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(961): include('/var/www/test.d...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(923): View->_evaluate('/var/www/test.d...', Array)
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(546): View->_render('/var/www/test.d...')
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(481): View->renderLayout('', 'home')
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#10 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/ionicons.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:14 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /homes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/test.dev/buildmaxcake2/app/View/Layouts/home.ctp(53): View->__get('Flash')
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(961): include('/var/www/test.d...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(923): View->_evaluate('/var/www/test.d...', Array)
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(546): View->_render('/var/www/test.d...')
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(481): View->renderLayout('', 'home')
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#10 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-28 01:06:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/ionicons.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:06:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:44 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /homes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/test.dev/buildmaxcake2/app/View/Layouts/home.ctp(53): View->__get('Flash')
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(961): include('/var/www/test.d...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(923): View->_evaluate('/var/www/test.d...', Array)
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(546): View->_render('/var/www/test.d...')
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(481): View->renderLayout('', 'home')
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#10 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/ionicons.min.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/style.css
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:58 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /homes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/test.dev/buildmaxcake2/app/View/Layouts/home.ctp(53): View->__get('Flash')
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(961): include('/var/www/test.d...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(923): View->_evaluate('/var/www/test.d...', Array)
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(546): View->_render('/var/www/test.d...')
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(481): View->renderLayout('', 'home')
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#10 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-28 01:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/html5shiv.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/scripts.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:11:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:14:18 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /homes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/test.dev/buildmaxcake2/app/View/Layouts/home.ctp(53): View->__get('Flash')
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(961): include('/var/www/test.d...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(923): View->_evaluate('/var/www/test.d...', Array)
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(546): View->_render('/var/www/test.d...')
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(481): View->renderLayout('', 'home')
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#10 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-28 01:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:14:23 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /homes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/test.dev/buildmaxcake2/app/View/Layouts/home.ctp(53): View->__get('Flash')
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(961): include('/var/www/test.d...')
+#4 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(923): View->_evaluate('/var/www/test.d...', Array)
+#5 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(546): View->_render('/var/www/test.d...')
+#6 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(481): View->renderLayout('', 'home')
+#7 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#8 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#9 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
+#10 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-28 01:14:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:14:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:15:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:16:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:16:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:16:21 Error: [MissingActionException] Action PagesController::about_us() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'about_us',
+)
+Request URL: /Pages/about_us
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-28 01:18:11 Error: [MissingViewException] View file "Pages/about_us.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/about_us.ctp',
+)
+Request URL: /Pages/about_us
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/test.dev/buildmaxcake2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/test.dev/buildmaxcake2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-28 01:19:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:19:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:20:40 Error: [MissingControllerException] Controller class LeasestypesController could not be found.
+Exception Attributes: array (
+  'class' => 'LeasestypesController',
+  'plugin' => NULL,
+)
+Request URL: /leasestypes
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:21:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-28 01:21:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap-theme.min.js
+Stack Trace:
+#0 /var/www/test.dev/buildmaxcake2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

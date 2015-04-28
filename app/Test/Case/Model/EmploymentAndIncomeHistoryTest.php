@@ -1,0 +1,31 @@
+<?php
+App::uses('EmploymentAndIncomeHistory', 'Model');
+
+/**
+ * EmploymentAndIncomeHistory Test Case
+ *
+ */
+class EmploymentAndIncomeHistoryTest extends CakeTestCase {
+
+/**
+ * setUp method
+ *
+ * @return void
+ */
+	public function setUp() {
+		parent::setUp();
+		$this->EmploymentAndIncomeHistory = ClassRegistry::init('EmploymentAndIncomeHistory');
+	}
+
+/**
+ * tearDown method
+ *
+ * @return void
+ */
+	public function tearDown() {
+		unset($this->EmploymentAndIncomeHistory);
+
+		parent::tearDown();
+	}
+
+}
