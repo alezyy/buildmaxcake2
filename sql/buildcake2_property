@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.41, for debian-linux-gnu (i686)
 --
--- Host: localhost    Database: buildcake3_property
+-- Host: localhost    Database: buildcake2_property
 -- ------------------------------------------------------
 -- Server version	5.5.41-0ubuntu0.14.04.1
 
@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `accounting`
+-- Table structure for table `accountings`
 --
 
-DROP TABLE IF EXISTS `accounting`;
+DROP TABLE IF EXISTS `accountings`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `accounting` (
+CREATE TABLE `accountings` (
   `id` int(11) NOT NULL,
   `tenant_id` int(11) NOT NULL,
   `payment_id` int(11) NOT NULL,
@@ -31,12 +31,12 @@ CREATE TABLE `accounting` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `accounting`
+-- Dumping data for table `accountings`
 --
 
-LOCK TABLES `accounting` WRITE;
-/*!40000 ALTER TABLE `accounting` DISABLE KEYS */;
-/*!40000 ALTER TABLE `accounting` ENABLE KEYS */;
+LOCK TABLES `accountings` WRITE;
+/*!40000 ALTER TABLE `accountings` DISABLE KEYS */;
+/*!40000 ALTER TABLE `accountings` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -284,6 +284,30 @@ LOCK TABLES `comptable1` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `comptable1s`
+--
+
+DROP TABLE IF EXISTS `comptable1s`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `comptable1s` (
+  `ID` int(10) NOT NULL,
+  `tenant_id` int(10) NOT NULL,
+  `payment_id` int(10) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `comptable1s`
+--
+
+LOCK TABLES `comptable1s` WRITE;
+/*!40000 ALTER TABLE `comptable1s` DISABLE KEYS */;
+/*!40000 ALTER TABLE `comptable1s` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `countries`
 --
 
@@ -333,13 +357,13 @@ LOCK TABLES `deposits` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `employment_and_income_history`
+-- Table structure for table `employment_and_income_histories`
 --
 
-DROP TABLE IF EXISTS `employment_and_income_history`;
+DROP TABLE IF EXISTS `employment_and_income_histories`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `employment_and_income_history` (
+CREATE TABLE `employment_and_income_histories` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `id_tenant` int(10) unsigned DEFAULT NULL,
   `employer_name` varchar(15) DEFAULT NULL,
@@ -357,13 +381,13 @@ CREATE TABLE `employment_and_income_history` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `employment_and_income_history`
+-- Dumping data for table `employment_and_income_histories`
 --
 
-LOCK TABLES `employment_and_income_history` WRITE;
-/*!40000 ALTER TABLE `employment_and_income_history` DISABLE KEYS */;
-INSERT INTO `employment_and_income_history` VALUES (1,1,'Anderson Lopez','New Yourk','4989582423','2012-12-01','2014-01-31',5000.00,'database developer','None','None ','<br>');
-/*!40000 ALTER TABLE `employment_and_income_history` ENABLE KEYS */;
+LOCK TABLES `employment_and_income_histories` WRITE;
+/*!40000 ALTER TABLE `employment_and_income_histories` DISABLE KEYS */;
+INSERT INTO `employment_and_income_histories` VALUES (1,1,'Anderson Lopez','New Yourk','4989582423','2012-12-01','2014-01-31',5000.00,'database developer','None','None ','<br>');
+/*!40000 ALTER TABLE `employment_and_income_histories` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -379,7 +403,7 @@ CREATE TABLE `groups` (
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -388,7 +412,7 @@ CREATE TABLE `groups` (
 
 LOCK TABLES `groups` WRITE;
 /*!40000 ALTER TABLE `groups` DISABLE KEYS */;
-INSERT INTO `groups` VALUES (1,'administrator','2015-04-23 03:23:27','2015-04-23 03:23:27'),(2,'tenant','2015-04-23 03:23:38','2015-04-23 03:23:38');
+INSERT INTO `groups` VALUES (1,'administrator','2015-04-23 03:23:27','2015-04-23 03:23:27'),(2,'tenant','2015-04-23 03:23:38','2015-04-23 03:23:38'),(3,'visitor','2015-04-28 01:02:45','2015-04-28 01:02:45');
 /*!40000 ALTER TABLE `groups` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -479,13 +503,13 @@ LOCK TABLES `logs` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `marital_status`
+-- Table structure for table `marital_statuses`
 --
 
-DROP TABLE IF EXISTS `marital_status`;
+DROP TABLE IF EXISTS `marital_statuses`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `marital_status` (
+CREATE TABLE `marital_statuses` (
   `id` int(10) NOT NULL,
   `marital_status` varchar(200) NOT NULL,
   PRIMARY KEY (`id`)
@@ -493,13 +517,13 @@ CREATE TABLE `marital_status` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `marital_status`
+-- Dumping data for table `marital_statuses`
 --
 
-LOCK TABLES `marital_status` WRITE;
-/*!40000 ALTER TABLE `marital_status` DISABLE KEYS */;
-INSERT INTO `marital_status` VALUES (1,'Marie'),(2,'celibataire'),(3,'divorce');
-/*!40000 ALTER TABLE `marital_status` ENABLE KEYS */;
+LOCK TABLES `marital_statuses` WRITE;
+/*!40000 ALTER TABLE `marital_statuses` DISABLE KEYS */;
+INSERT INTO `marital_statuses` VALUES (1,'Marie'),(2,'celibataire'),(3,'divorce');
+/*!40000 ALTER TABLE `marital_statuses` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -916,13 +940,13 @@ INSERT INTO `rental_owners` VALUES (1,'Marry','Miller ','SMALLSYS INC','1969-03-
 UNLOCK TABLES;
 
 --
--- Table structure for table `residence_and_rental_history`
+-- Table structure for table `residence_and_rental_histories`
 --
 
-DROP TABLE IF EXISTS `residence_and_rental_history`;
+DROP TABLE IF EXISTS `residence_and_rental_histories`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `residence_and_rental_history` (
+CREATE TABLE `residence_and_rental_histories` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `id_tenant` int(10) unsigned DEFAULT NULL,
   `address` varchar(40) DEFAULT NULL,
@@ -938,12 +962,12 @@ CREATE TABLE `residence_and_rental_history` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `residence_and_rental_history`
+-- Dumping data for table `residence_and_rental_histories`
 --
 
-LOCK TABLES `residence_and_rental_history` WRITE;
-/*!40000 ALTER TABLE `residence_and_rental_history` DISABLE KEYS */;
-/*!40000 ALTER TABLE `residence_and_rental_history` ENABLE KEYS */;
+LOCK TABLES `residence_and_rental_histories` WRITE;
+/*!40000 ALTER TABLE `residence_and_rental_histories` DISABLE KEYS */;
+/*!40000 ALTER TABLE `residence_and_rental_histories` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1070,23 +1094,13 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `email` varchar(255) DEFAULT NULL,
-  `username` varchar(50) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
-  `salt` varchar(22) DEFAULT NULL,
-  `group_id` int(11) NOT NULL,
-  `role` varchar(20) DEFAULT NULL,
+  `group_id` int(11) NOT NULL DEFAULT '2',
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
-  `is_active` tinyint(1) DEFAULT '0',
-  `last_login` datetime DEFAULT NULL,
-  `last_ip` varchar(15) DEFAULT NULL,
-  `old_salt` varchar(22) DEFAULT NULL,
-  `old_hash` varchar(60) DEFAULT NULL,
-  `force_reset` tinyint(1) DEFAULT '0',
-  `fraudulent` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1095,7 +1109,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,NULL,'vba','vba',NULL,1,'admin','2015-04-23 03:31:48','2015-04-23 03:31:48',0,NULL,NULL,NULL,NULL,0,0);
+INSERT INTO `users` VALUES (1,'vba@vba.com','vba',1,'2015-04-23 03:31:48','2015-04-23 03:31:48'),(2,'alezyy@yahoo.com','123456',1,'2015-04-24 16:17:20','2015-04-24 16:17:20'),(53,'goooo@oo.cm','123',2,'2015-04-27 17:36:53','2015-04-27 17:36:53'),(54,'qw@h.com','1234',2,'2015-04-27 17:37:58','2015-04-27 17:37:58'),(55,'qwnn@h.com','321',1,'2015-04-27 17:44:49','2015-04-27 17:44:49'),(56,'polo@yahoo.com','123456789',2,'2015-04-27 17:47:14','2015-04-27 17:47:14'),(57,'polobar@yahoo.com','123456789',2,'2015-04-27 17:49:00','2015-04-27 17:49:00'),(58,'tizpeople@gmail.com','123456789',2,'2015-04-27 18:18:46','2015-04-27 18:18:46');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -1108,4 +1122,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-04-23 20:49:22
+-- Dump completed on 2015-04-28  1:31:13
