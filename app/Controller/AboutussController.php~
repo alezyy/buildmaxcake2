@@ -1,0 +1,10 @@
+<?php
+class AboutussxController extends AppController {
+
+	public function index() {
+
+	$this->layout = 'home';
+
+	}
+
+}
