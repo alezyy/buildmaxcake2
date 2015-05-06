@@ -69,6 +69,7 @@ class PagesController extends AppController {
         $this->Auth->allow();
     }
 
+
     /**
      * Displays a view
      *
@@ -84,6 +85,8 @@ class PagesController extends AppController {
  * @return void
  */
     public function display() {
+
+
 		$path = func_get_args();
 
 		$count = count($path);
@@ -148,4 +151,5 @@ class PagesController extends AppController {
 	public function sitemap(){
 		$this->render('sitemap');
 	}
+
 }

@@ -79,6 +79,17 @@ class DATABASE_CONFIG {
 		'encoding' => 'utf8',
 	);
 
+	public $authake = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => 'Net463877',
+		'database' => 'buildcake2_property',
+		'prefix' => '',
+		'encoding' => 'utf8',
+	);
+
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,

@@ -111,6 +111,90 @@
 						<li>
 							<a href="#">Francais</a>
 						</li>
+					<li>
+								<a> 
+						<?php
+               			echo $this->Html->link(
+                   			__('Register'), array(
+                  				  'plugin' => 'authake',
+                  				  'controller' => 'user',
+                   			      'action'     => 'register',
+                   			      'named' => 
+                                           array (
+                                                ),
+                                  'pass' => 
+                                           array (
+                                            ),
+
+
+                   						    ),
+		    				  array('itemprop' => 'url' ));
+                										?>  
+                					</a>
+								</li>
+						 <li>
+								<a> 
+						<?php
+               			echo $this->Html->link(
+                   			__('Login'), array(
+                  				  'plugin' => 'authake',
+                  				  'controller' => 'user',
+                   			      'action'     => 'login',
+                   			      'named' => 
+                                           array (
+                                                ),
+                                  'pass' => 
+                                           array (
+                                            ),
+
+
+                   						    ),
+		    				  array('itemprop' => 'url' ));
+                										?>  
+                					</a>
+								</li>
+				<li>
+								<a> 
+						<?php
+               			echo $this->Html->link(
+                   			__('Logout'), array(
+                  				  'plugin' => 'authake',
+                  				  'controller' => 'user',
+                   			      'action'     => 'logout',
+                   			      'named' => 
+                                           array (
+                                                ),
+                                  'pass' => 
+                                           array (
+                                            ),
+
+
+                   						    ),
+		    				  array('itemprop' => 'url' ));
+                										?>  
+                					</a>
+								</li>
+				<li>
+								<a> 
+						<?php
+               			echo $this->Html->link(
+                   			__('Admin'), array(
+                  				  'plugin' => 'authake',
+                  				  'controller' => 'authake',
+                   			      'action'     => 'index',
+                   			      'named' => 
+                                           array (
+                                                ),
+                                  'pass' => 
+                                           array (
+                                            ),
+
+
+                   						    ),
+		    				  array('itemprop' => 'url' ));
+                										?>  
+                					</a>
+								</li>
 
 						<? // php if (!$user_id): ?>
 						<li class="dropdown">
@@ -124,13 +208,12 @@
 									<a href="http://test.dev/groups">Groups</a>
 								</li>
 								<li>
-									<?php
-               								 echo $this->Html->link(
-                   													 __('Tenants'), array(
-                  														  'controller' => 'Tenants',
-                   														  'action'     => 'index',
-                   														    ),
-		    														  array('itemprop' => 'url' ));
+					<?php
+             echo $this->Html->link(
+                   		 __('Tenants'), array( 'controller' => 'Tenants',
+                  	 'action'     => 'index',
+                 				    ),
+		   						  array('itemprop' => 'url' ));
                 										?>  
                 					</a>
 								</li>
@@ -159,13 +242,13 @@
 								</li>
 								<li>
 									<a> 
-										<?php
-               								 echo $this->Html->link(
-                   													 __('About us'), array(
-                  														  'controller' => 'Pages',
-                   														  'action'     => 'about_us',
-                   														    ),
-		    														  array('itemprop' => 'url' ));
+						<?php
+               			echo $this->Html->link(
+                   			__('About us'), array(
+                  				  'controller' => 'Pages',
+                   			  'action'     => 'about_us',
+                   						    ),
+		    				  array('itemprop' => 'url' ));
                 										?>  
                 					</a>
 

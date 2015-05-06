@@ -75,6 +75,8 @@ class PagesController extends AppController {
 	}
 
 	public function about_us() {
+	
+	$this->layout = 'pages';
 
 	}
 

@@ -1,4 +1,5 @@
 <div id="" class="container-white">
+	
 	<div class="other_center">
 		<div class="gray_head_box">
 			<div class="gray_head_heading"><h1>Welcome</h1></div>

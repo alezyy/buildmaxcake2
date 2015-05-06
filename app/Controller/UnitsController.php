@@ -11,6 +11,15 @@ class UnitsController extends AppController {
  *
  * @var mixed
  */
-	public $scaffold;
+	// public $scaffold;
 
+	public function index() {
+	
+	$units = $this->Unit->find('all', array('limit'=>25));
+
+	//	$this->set('locationGallery', $this->LocationGallery->find('first', $options));
+
+	$this->set('units', $units) ;
+	}
+	 	 
 }
